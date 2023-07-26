@@ -1,0 +1,251 @@
+body{
+  
+  background-color: rgba(0, 0, 0, 0.468);
+  color:white;
+}
+.maindiv{
+  text-align: center;
+ 
+}
+.mainheading{
+  font-size: 64px;
+  font-family:cursive;
+  font-style: italic;
+}
+.nav{
+  
+    display:flex;
+    flex-direction: row;
+    gap:37px;
+    justify-content: center;
+    
+}
+.nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.homeD1{
+  background-image: url('https://img.freepik.com/premium-photo/top-view-food-frame-wooden-background_23-2148723496.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:300px;
+  width:auto;
+}
+/* .maindivhead{
+  height:auto;
+  width:auto;
+} */
+.impactText {
+  text-align: center;
+  font-family: cursive;
+  font-size: 24px;
+  color: #ffff;
+  margin-top: 40px;
+}
+.hometext{
+  justify-content: end;
+ 
+}
+.hometext h1{
+  font-family:cursive;
+}
+.Servicesdiv1{
+   /* background-color: gray; */
+  height:500px;
+  width:100%;
+  color:black;
+  padding-left: 120px;
+  display:grid;
+  grid-template-columns: repeat(2,50%);
+  grid-gap:10px;
+ 
+  
+}
+.Servicesdiv2{
+  border-radius: 10px;
+  background-color: rgba(245, 245, 245, 0.89);
+  height:auto;
+  width:50%;
+  padding:30px;
+  text-align:center;
+  font-family: cursive;
+  box-shadow:  10px 5px 5px;
+
+}
+.Servicebtn{
+  /* background-color: rgb(0, 200, 255); */
+  background-color: rgba(255, 0, 0, 0.721);
+  height:40px;
+  width:180px;
+  border-radius: 8px ;
+  cursor: pointer;
+}
+.Serviceimg{
+  height:250px;
+  width:250px;
+  border-radius:10px;
+}
+.contact {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.contactUs {
+  color: #333;
+  border-radius: 8px;
+  width: 60%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contactUs h1 {
+  font-family: 'cursive';
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contactUs form {
+  margin-top: 20px;
+}
+
+.contactUs label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.contactUs input[type='text'],
+.contactUs input[type='email'],
+.contactUs textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.contactUs textarea {
+  resize: vertical;
+}
+
+.contactUs button {
+  background-color: #3f51b5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contactUs button:hover {
+  background-color: #2c387e;
+}
+
+.Aboutus{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fighting{
+  background-image: url('https://blog.akshayapatra.org/wp-content/uploads/2022/09/1160x450-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 120px;
+}
+.fighting1{
+  background-image: url('https://www.commsatwork.org/wp-content/uploads/2021/06/Donate-Header.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 120px;
+}
+.maindivfoot {
+  height: 200px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.468);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.maindivfoot p {
+  font-size: 18px;
+}
+.socialMedia{
+  display: grid;
+  display:grid;
+  grid-template-columns: repeat(3,30%);
+  grid-gap:20px;
+  padding-left: 160px;
+  
+}
+.social1{
+  height:200px;
+  width:200px;
+  background-image: url('https://www.bookeventz.com/blog/wp-content/uploads/2021/02/FI-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+.social2{
+  height:200px;
+  width:200px;
+  background-image: url('https://www.bookeventz.com/blog/wp-content/uploads/2021/02/Feeding-India-Donate-Food.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+.social3{
+  height:200px;
+  width:200px;
+  background-image: url('https://thegreenliving.in/wp-content/uploads/2022/10/donate-food.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+.social4{
+  height:200px;
+  width:200px;
+  background-image: url('https://media.gettyimages.com/id/892542416/photo/family-donate-items-to-food-drive.jpg?s=612x612&w=gi&k=20&c=lz8c6TETzEJGybmYuJzBpO7oYfW_pFASdjrybkITXxI=');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+.social5{
+  height:200px;
+  width:200px;
+  background-image: url('https://upkarwelfarefoundation.org/wp-content/uploads/2021/06/20210606133116_IMG_6621-1024x683.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+.social6{
+  height:200px;
+  width:200px;
+  background-image: url('https://media.istockphoto.com/id/1295574852/photo/helping-the-poor-pilgrims-inside-gangasagar-mela-transit-camp-at-kolkata.jpg?s=612x612&w=0&k=20&c=E4k_228gPp-dxVKyvsV0_ps_Jo3SzoZ4_9U-0c4P9AQ=');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+.social1:hover,.social2:hover,.social3:hover,.social4:hover,.social5:hover,.social6:hover{
+    height:202px;
+    width:202px;  
+}
+
